@@ -1,11 +1,13 @@
 import React from "react";
-import { StyleSheet, Text, View } from "react-native";
+import { StyleSheet, ScrollView } from "react-native";
+
 import { colors } from "./src/styles";
+import HotelView from "./src/HotelView";
 
 export default function App() {
   return (
     <ScrollView style={styles.root}>
-      <Text>App Screen</Text>
+      <HotelView />
     </ScrollView>
   );
 }

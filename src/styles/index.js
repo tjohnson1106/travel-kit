@@ -18,13 +18,13 @@ export const gs = StyleSheet.create({
     backgroundColor: colors.lightBg
   },
 
-  rowCewnter: {
-    // flexDirection: "row",
+  rowCenter: {
+    flexDirection: "row",
     alignItems: "center"
   },
 
   rowBetween: {
-    // flowDirection: "row",
+    flexDirection: "row",
     justifyContent: "space-between"
   },
 
