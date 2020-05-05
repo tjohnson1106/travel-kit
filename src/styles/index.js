@@ -18,6 +18,12 @@ export const gs = StyleSheet.create({
     backgroundColor: colors.lightBg
   },
 
+  sectionTitle: {
+    fontWeight: "700",
+    color: colors.text,
+    fontSize: 15
+  },
+
   rowCenter: {
     flexDirection: "row",
     alignItems: "center"
